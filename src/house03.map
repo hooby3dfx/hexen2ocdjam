@@ -1566,7 +1566,7 @@
 // entity 69
 {
 "classname" "obj_ocd_table"
-"origin" "-1766 -2406 -3"
+"origin" "-1766 -2438 -3"
 }
 // entity 70
 {
@@ -1616,15 +1616,30 @@
 // entity 76
 {
 "classname" "obj_ocd_diningtable"
-"origin" "-1494 -2424 -3"
+"origin" "-1494 -2424 29"
 }
 // entity 77
 {
 "classname" "obj_ocd_lamp"
-"origin" "-1590 -2550 -3"
+"origin" "-1590 -2550 45"
 }
 // entity 78
 {
 "classname" "obj_ocd_bed"
-"origin" "-1462 -2392 101"
+"origin" "-1462 -2392 133"
+}
+// entity 79
+{
+"classname" "obj_ocd_toilet"
+"origin" "-1706 -2342 117"
+}
+// entity 80
+{
+"classname" "obj_ocd_bath"
+"origin" "-1720 -2422 117"
+}
+// entity 81
+{
+"classname" "obj_ocd_dresser"
+"origin" "-1482 -2458 133"
 }

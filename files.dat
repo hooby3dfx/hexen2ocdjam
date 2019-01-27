@@ -384,7 +384,7 @@
 2 fangel/pain.wav
 2 fangel/death2.wav
 2 fangel/pain2.wav
-332
+336
 1 models/sprites/null.spr
 1 models/imp.mdl
 1 models/h_imp.mdl
@@ -420,6 +420,10 @@
 1 models/ocd_couch.mdl
 1 models/ocd_lamp.mdl
 1 models/ocd_diningtable.mdl
+1 models/ocd_bed.mdl
+1 models/ocd_bath.mdl
+1 models/ocd_toilet.mdl
+1 models/ocd_dresser.mdl
 1 models/chair.mdl
 3 models/stool.mdl
 2 models/tree.mdl

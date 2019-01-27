@@ -399,6 +399,42 @@ void obj_ocd_diningtable()
 	self.touch	= obj_push;
 	self.flags	(+) FL_PUSH;
 }
+void obj_ocd_bed()
+{
+	precache_model("models/ocd_bed.mdl");
+
+	CreateEntityNew(self,ENT_OCD_BED,"models/ocd_bed.mdl",chunk_death);
+
+	self.touch	= obj_push;
+	self.flags	(+) FL_PUSH;
+}
+void obj_ocd_bath()
+{
+	precache_model("models/ocd_bath.mdl");
+
+	CreateEntityNew(self,ENT_OCD_BATH,"models/ocd_bath.mdl",chunk_death);
+
+	self.touch	= obj_push;
+	self.flags	(+) FL_PUSH;
+}
+void obj_ocd_toilet()
+{
+	precache_model("models/ocd_toilet.mdl");
+
+	CreateEntityNew(self,ENT_OCD_TOILET,"models/ocd_toilet.mdl",chunk_death);
+
+	self.touch	= obj_push;
+	self.flags	(+) FL_PUSH;
+}
+void obj_ocd_dresser()
+{
+	precache_model("models/ocd_dresser.mdl");
+
+	CreateEntityNew(self,ENT_OCD_DRESSER,"models/ocd_dresser.mdl",chunk_death);
+
+	self.touch	= obj_push;
+	self.flags	(+) FL_PUSH;
+}
 
 
 

@@ -83,6 +83,10 @@ float ENT_OCD_TABLE			= 76;
 float ENT_OCD_COUCH			= 77;
 float ENT_OCD_LAMP			= 78;
 float ENT_OCD_DININGTABLE			= 79;
+float ENT_OCD_BED			= 80;
+float ENT_OCD_BATH			= 81;
+float ENT_OCD_TOILET			= 82;
+float ENT_OCD_DRESSER			= 83;
 
 
 float SPAWNVALU_SIZE	= 6;	// Number of fields for each entity in entity_spawnvalues array
@@ -94,7 +98,7 @@ float THINGTYPE_OFS		= 4;
 float DAMAGETYPE_OFS	= 5;
 
 
-float entity_spawnvalues[480] =
+float entity_spawnvalues[504] =
 {  // Health    Mass    Movetype         Solid    Thingtype        DamageType
 		25,		3,		0,				0,				2,				1,	// ENT_WORLD		
 		25,		3,	   13,				3,				2,				1,	// ENT_CHAIR
@@ -176,14 +180,18 @@ float entity_spawnvalues[480] =
 		25,		3,	   13,				3,				2,				1,	// ENT_OCD_TABLE
 		25,		3,	   13,				3,				2,				1,	// ENT_OCD_COUCH
 		24,	   20,	   13,				3,			   12,				1,	// ENT_OCD_LAMP
-		25,	    8,	    4,				3,			    2,				1	// ENT_OCD_DININGTABLE
+		25,	    8,	    4,				3,			    2,				1,	// ENT_OCD_DININGTABLE
+		25,	    8,	    4,				3,			    2,				1,	// ENT_OCD_BED
+		25,	    8,	    4,				3,			    2,				1,	// ENT_OCD_BATH
+		25,	    8,	    4,				3,			    2,				1,	// ENT_OCD_TOILET
+		25,	    8,	    4,				3,			    2,				1	// ENT_OCD_DRESSER
 }; 
 
 
 float BOX_SIZE	= 2;	// Number of fields for each entity in entity_box array
 float BMAX_OFS	= 1;
 
-vector entity_box[160] =
+vector entity_box[168] =
 {   // Min             Maxs
 	'   0    0    0',	'  0   0   0',			// ENT_WORLD
 	' -10  -10    0',	' 10  10  40',			// ENT_CHAIR
@@ -265,7 +273,11 @@ vector entity_box[160] =
 	' -10  -10    0',	' 40  40  40',			// ENT_OCD_TABLE
 	' -10  -10    0',	' 40  40  40',			// ENT_OCD_COUCH
 	' -13  -13    0',	' 13  13  36',			// ENT_OCD_LAMP
-	' -10  -30    0',	' 10  30  40'			// ENT_OCD_DININGTABLE
+	' -10  -30    0',	' 10  30  40',			// ENT_OCD_DININGTABLE
+	' -10  -30    0',	' 10  30  40',			// ENT_OCD_BED
+	' -10  -30    0',	' 10  30  40',			// ENT_OCD_BATH
+	' -10  -30    0',	' 10  30  40',			// ENT_OCD_TOILET
+	' -10  -30    0',	' 10  30  40'			// ENT_OCD_DRESSER
 
 };
 
