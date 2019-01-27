@@ -1643,3 +1643,30 @@
 "classname" "obj_ocd_dresser"
 "origin" "-1482 -2458 133"
 }
+// entity 82
+{
+"classname" "light"
+"origin" "-1656 -2440 224"
+}
+// entity 83
+{
+"classname" "trigger_teleport"
+"target" "atticteleport"
+"spawnflags" "1"
+// brush 0
+{
+( -2640 -3040 -16 ) ( -2640 -3039 -16 ) ( -2640 -3040 -15 ) *lowlight 0 0 0 1 1 0
+( -2608 -3008 -0 ) ( -2608 -3008 1 ) ( -2608 -3007 -0 ) *lowlight 0 0 0 1 1 0
+( -2640 -3040 -16 ) ( -2640 -3040 -15 ) ( -2639 -3040 -16 ) *lowlight 0 0 0 1 1 0
+( -2608 -3008 -0 ) ( -2607 -3008 -0 ) ( -2608 -3008 1 ) *lowlight 0 0 0 1 1 0
+( -2608 -3008 -0 ) ( -2608 -3007 -0 ) ( -2607 -3008 -0 ) *lowlight 0 0 0 1 1 0
+( -2640 -3040 -16 ) ( -2639 -3040 -16 ) ( -2640 -3039 -16 ) *lowlight 0 0 0 1 1 0
+}
+}
+// entity 84
+{
+"classname" "info_teleport_destination"
+"origin" "-1664 -2528 248"
+"targetname" "atticteleport"
+"spawnflags" "1"
+}
